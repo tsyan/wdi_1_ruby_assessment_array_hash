@@ -13,10 +13,11 @@ pets = ['cat', 'dog']
 friend = { name: "Chris", favorite_food: "Pizza", age: 27 }
 
 # Question 3
-# Add a key of :hair_color with a value of "blue" to the friend hash
+# Write code to make all the elements in the pet array be uppercase.
+# The result should be a new array, and the old pet array should still exist.
 
 # Question 4
-# Write code to retrieve the index of 'dog' in the pet array
+# Write code to retrieve the index of 'dog' in the original pet array.
 
 # Question 5
-# Write code to change the value of :favorite_food in the friend hash to 'sushi'
+# Write code to change the value of :favorite_food in the friend hash to 'sushi'.
