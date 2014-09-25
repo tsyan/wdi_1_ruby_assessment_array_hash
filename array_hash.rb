@@ -42,6 +42,5 @@ puts circumference(lemur)
 
 =begin
 ANSWER
-'r' is a parameter that is passed in the method is local to that method.
-On the other hand, lemur is a variable with an assigned value that is passed as input to the method circumference.
+'r' is a parameter that is passed in the method, whereas 'lemur' is a variable with an assigned value that is passed in as input to the method 'circumference'.
 =end
