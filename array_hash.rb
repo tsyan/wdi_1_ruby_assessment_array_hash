@@ -21,3 +21,15 @@ friend = { name: "Chris", favorite_food: "Pizza", age: 27 }
 
 # Question 5
 # Write code to change the value of :favorite_food in the friend hash to 'sushi'.
+
+# Question 6
+# Look at the following code. Explain in your own words why the argument
+# on first line (r) can be called something different from the argument on the last line (lemur)
+# but the code still works. 
+
+def circumference(r)
+  2 * pi * r
+end
+
+lemur = 8
+puts circumference(lemur)
