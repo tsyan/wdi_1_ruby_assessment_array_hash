@@ -18,7 +18,7 @@ friend = { name: "Chris", favorite_food: "Pizza", age: 27 }
 
 # Answer:
 
-friend[:age]
+puts friend[:age]
 
 # Question 3
 # Write code to make all the elements in the pet array be uppercase.
@@ -37,7 +37,7 @@ puts new_pets
 
 # Answer:
 
-pets.index('dog')
+puts pets.index('dog')
 
 # Question 5
 # Write code to change the value of :favorite_food in the friend hash to 'sushi'.
@@ -45,6 +45,7 @@ pets.index('dog')
 # Answer:
 
 friend[:favorite_food] = 'sushi'
+puts friend[:favorite_food]
 
 # Question 6
 # Look at the following code. Explain in your own words why the argument
@@ -65,3 +66,8 @@ puts circumference(lemur)
 # passed in.
 # The method will understand that r stands for <value passed in>,
 # and therefore that r stands for lemur, in this case.
+
+# ...Also, uh, the code doesn't actually work.
+# pi is a local variable that is not defined within the method.
+# So, it'll error out if you try to run it.
+# I think pi in Ruby is `Math.pi` or something.
