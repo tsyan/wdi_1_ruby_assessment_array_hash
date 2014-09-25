@@ -7,8 +7,8 @@ require 'pry'
 # On a new line, write code to insert the value `snake` at the end of the pets array.
 # Don't modify the original array creation line.
 
-pets = ['cat', 'dog']
-pets << 'snake'
+pets = ['cat', 'dog'] << 'snake'
+
 
 # Question 2
 # Write code to return the value of the key :age in the friend hash
@@ -22,6 +22,7 @@ puts age #return does not work for me:: I get a LocalJumpError when I invoke ret
 # The result should be a new array, and the old pet array should still exist.
 pets_upcase = []
  pets.map {|i| pets_upcase << i.upcase}
+ pets_uppercase = pets.map(&:upcase)
 
 
 # Question 4
@@ -31,7 +32,7 @@ pets.index('dog')
 
 # Question 5
 # Write code to change the value of :favorite_food in the friend hash to 'sushi'.
-friend[favorite_food: ="sushi" #I did not complete this line
+friend[:favorite_food] = 'sushi'#fixed this
 binding.pry
 
 # Question 6
