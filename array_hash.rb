@@ -28,6 +28,7 @@ friend = { name: "Chris", favorite_food: "Pizza", age: 27 }
 # but the code still works. 
 
 def circumference(r)
+  pi = 3.14
   2 * pi * r
 end
 
